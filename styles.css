@@ -445,6 +445,31 @@ a {
   line-height: 1.72;
 }
 
+.project-links {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.project-links a {
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.project-links a:first-child {
+  border: 1px solid rgba(125, 211, 252, 0.18);
+  background: rgba(7, 16, 25, 0.72);
+  color: #dff6ff;
+}
+
+.project-links a:last-child {
+  color: #041018;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent-soft), var(--accent-strong));
+}
+
 .experience {
   display: grid;
   gap: 20px;
